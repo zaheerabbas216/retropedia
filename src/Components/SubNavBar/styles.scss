@@ -1,0 +1,12 @@
+@import "../../Assets/colors.scss";
+._navtoggle {
+  background-color: $backgroundColor;
+}
+.navbar-toggler-icon {
+  background-color: $headerBackgroundColor;
+}
+.menuIcon {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+}
