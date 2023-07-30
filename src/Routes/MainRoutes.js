@@ -6,9 +6,11 @@ import { Navbar } from "../Components/Navbar";
 import { SubNavBar } from "../Components/SubNavBar";
 import { Space } from "../Pages/Space";
 import { About } from "../Pages/Space/About";
+import { HPCharecteres } from "../Pages/HarryPotter/Charecters";
 
 import "./styles.scss";
 import { SpaceArticlesPage } from "../Pages/Space/Articles/SpaceArticlesPage";
+import { HPHome } from "../Pages/HarryPotter/Home";
 
 export const MainRoutes = () => {
   return (
@@ -26,6 +28,11 @@ export const MainRoutes = () => {
           <Route
             path={RouteStrings.spaceArticles}
             element={<SpaceArticlesPage />}
+          />
+          <Route path={RouteStrings.hpHome} element={<HPHome />} />
+          <Route
+            path={RouteStrings.hpCharecteres}
+            element={<HPCharecteres />}
           />
         </Routes>
       </div>

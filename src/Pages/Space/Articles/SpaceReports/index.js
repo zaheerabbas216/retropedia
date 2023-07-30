@@ -2,7 +2,6 @@ import React from "react";
 import "./styles.scss";
 
 export const SpaceReports = ({ reports }) => {
-  console.log("reports", reports);
   const getDate = (date) => {
     let _date = new Date(date);
     return _date.toLocaleString();

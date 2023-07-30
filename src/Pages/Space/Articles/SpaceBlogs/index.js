@@ -2,8 +2,6 @@ import React from "react";
 import "./styles.scss";
 
 export const SpaceBlogs = ({ blogs }) => {
-  console.log("blogs", blogs);
-
   const getDate = (date) => {
     let _date = new Date(date);
     return _date.toLocaleString();

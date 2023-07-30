@@ -136,30 +136,30 @@ export const SpaceArticles = () => {
                 <h5>Blogs</h5>
               </div>
             </div>
-            <div className="col-md-3">
+            {/* <div className="col-md-3">
               <div className="_category" onClick={getAllSpaceInfo}>
                 <img src={Images.folder} alt="" className="folderimg" />
                 <h5>Info</h5>
               </div>
-            </div>
-            <div className="col-md-3">
+            </div> */}
+            <div className="col-md-3">    
               <div className="_category" onClick={getAllReports}>
                 <img src={Images.folder} alt="" className="folderimg" />
                 <h5>Reports</h5>
               </div>
             </div>
-            <div className="col-md-3">
+            {/* <div className="col-md-3">
               <div className="_category" onClick={getAllSpaceEvents}>
                 <img src={Images.folder} alt="" className="folderimg" />
                 <h5>Events</h5>
               </div>
-            </div>
-            <div className="col-md-3">
+            </div> */}
+            {/* <div className="col-md-3">
               <div className="_category" onClick={getAllSpaceLaunch}>
                 <img src={Images.folder} alt="" className="folderimg" />
                 <h5>Launch</h5>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -16,6 +16,10 @@ export const SubNavBar = () => {
     navigate(RouteStrings.spaceAbout);
   };
 
+  const gotoHPHome = () => {
+    navigate(RouteStrings.hpHome);
+  };
+
   return (
     <div>
       <nav class="navbar navbar-expand-lg _subnav">
@@ -64,21 +68,26 @@ export const SubNavBar = () => {
                 data-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown link
+                Game Of Thrones
               </a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">
-                  Action
+                  Books
                 </a>
                 <a class="dropdown-item" href="#">
-                  Another action
+                  Charecters
                 </a>
                 <a class="dropdown-item" href="#">
-                  Something else here
+                  Houses
                 </a>
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" onClick={gotoHPHome}>
+                Harry Potter
+              </a>
+            </li>
+            {/* <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -86,20 +95,20 @@ export const SubNavBar = () => {
                 data-toggle="dropdown"
                 aria-expanded="false"
               >
-                More
+                Harry Potter
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">
-                  Action
+                <a class="dropdown-item" onClick={gotoHPCategories}>
+                  Charecters
                 </a>
                 <a class="dropdown-item" href="#">
-                  Another action
+                  All spells
                 </a>
                 <a class="dropdown-item" href="#">
-                  Something else here
+                  Get House Details
                 </a>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
